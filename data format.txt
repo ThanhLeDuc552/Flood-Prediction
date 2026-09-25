@@ -1,0 +1,15 @@
+2020-10-10_to_2020-10-13 (not exceed 100-hour maximum window of hec ras unsteady analysis)
+|_ai_nghia_hourly_discharge.csv
+|_cam_le_hourly_discharge.csv
+|_...
+|_initial_flow_values.csv
+2020-11-20_to_2020-11-30 (exceed 100-hour maximum window)
+|_2020-11-20_to_2020-11-23
+  |_ai_nghia_hourly_discharge.csv
+  |_cam_le_hourly_discharge.csv
+  |_...
+  |_initial_flow_values.csv
+|_2020-11-23_to_2020-11-26
+  |_...
+|_...
+

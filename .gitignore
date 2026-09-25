@@ -1,0 +1,12 @@
+# DEM folder
+DEM/
+**/DEM/
+Data Collections/DEM/
+
+# Papers
+Papers/
+
+# Cache files
+.cache.sqlite
+*.cache.sqlite
+**/.cache.sqlite

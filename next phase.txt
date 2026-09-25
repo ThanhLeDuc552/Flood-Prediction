@@ -1,0 +1,16 @@
+data collect: (1st priority - for drafting the prediction model)
+- collect more rain data (let the api run for a long period)
+- draw the other 2d area
+- assemble dss file & run hec ras
+
+model improvement: (2nd priority - finetuning)
+- connect river to 2d areas
+- adjust cross sections
+- see if there are crucial structures that need to be accounted
+
+data draft:
+- image of terrain covering the analyzing area
+- image of flooded area (just water level) (should be time series) (overlap with the examining terrain)
+- river geometry
+- rain data
+

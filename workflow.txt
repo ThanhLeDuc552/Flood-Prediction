@@ -1,0 +1,7 @@
+boundary conditions:
+- Ai Nghia, Tuy Loan, Vu Gia: flow hydrograph (rs 6399, 9800, 39160 consecutively) (needs passing from the script) (reach: Main Reach)
+- others: normal depth (keep intact)
+
+initial conditions:
+- Ai Nghia, Cam Le, Han, Lac Thanh, Tuy Loan, Vu Gia, Yen: rs 6399, 9000, 7602, 23600, 9800, 39160, 14400 consecutively (change per period)
+- reach: Main Reach (all rivers)

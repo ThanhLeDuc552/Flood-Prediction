@@ -1,0 +1,12 @@
+- non-flood period:
+    - linear interpolation 
+    - river mean set at 12pm every day
+    - sign: most precipitation val are 0, with some fluctuations
+
+- flood period:
+    - linear interpolation
+    - infer flood events from the 48-hour intervals (assess the consecutive intervals to find a chain of increasing precipitation value)
+        - given floods only last for a maximum of 3 days -> 1st constraint -> assess 2 intervals at a time
+        - if flood pattern is detected -> form an interval contain 1 day before flood pattern, days during the flood pattern, and 1 day after
+        - flood pattern: increasing precipitation values, peak at a higher value than most of the values, decreasing and reach a common value afterwards (or reach 0)
+    - consider the mean discharge is the peak discharge -> the interpolated version should correlate with the precipitation plot (put the mean discharges at timestamps where precipitation values are highest)
